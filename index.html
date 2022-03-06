@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="A simple stopwatch written in Vanilla JS"
+    />
+    <meta charset="utf-8" />
+    <title>A simple stopwatch written in Vanilla JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <div class="currentBox">
+          <div class="current">
+            <span id="hour">00</span>
+            <span id="minute">00</span>
+            <span id="second">00</span>
+            <span id="millisecond">00</span>
+          </div>
+        </div>
+        <div class="controllers">
+          <button type="button" id="pause"></button>
+          <button type="button" id="start"></button>
+          <button type="button" id="stop"></button>
+        </div>
+        <div class="history">
+          <button class="historyButton">History</button>
+          <div class="history-list">
+            <p>There is no record yet...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
